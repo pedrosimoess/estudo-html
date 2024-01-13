@@ -3,47 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Outras formatações</title>
+    <title>Listas</title>
 </head>
 <body>
-    <h1>Outras formatações</h1>
-    <h2>Código fonte / Pré formatação</h2>
-    <p>Exemplo de um código em python</p>
-    <code>num = int(input('digite um número'))
-        if num % 2 == 0:
-            print(f'número{num} é par')
-        else:
-            print(f'0 número {num} é impar')
-        print('FIM DO PROGRAMA')
-    </code>
-    <br>
-    <p>Ultilizando a tag pre temos a escrita do código exatamente como ele foi digitado, até mesmo com identação.</p>
-    <pre>
-<code>
-    num = int(input('digite um número'))
-    if num % 2 == 0:
-        print(f'número{num} é par')
-    else:
-        print(f'0 número {num} é impar')
-    print('FIM DO PROGRAMA')
-</code>
-    </pre>
-    <h2>Citação simples</h2>
-    <p>Ultilizando a tag q adicionamos semântica a dorma sendo uma maneira mais complexa que apenas adicionar "" ao texto.</p>
-    <p><q>Exemplo</q></p>
+    <h1>Trabalhando com Listas</h1>
+    <h2>Listas Ordenadas</h2>
+    <p>Esse é o tipo de lista onde a ordem <strong>importa</strong></p>
+    <ol type="I">
+        <li>Acordar</li>
+        <li>Tomar café</li>
+        <li>Ligar para a mãe</li>
+        <li>Escovar os dentes</li>
+    </ol>
+    <h2>Listas Não-Ordenadas</h2>
+    <p>Esse é o tipo de lista onde a ordem <strong>NÃO</strong> importa</p>
+    <ul type="square">
+        <li>Acordar</li>
+        <li>Ligar para a mãe</li>
+        <li>Tomar Café</li>
+        <li>Escovar os dentes</li>
+    </ul>
+    <h2>Listas Mistas</h2>
+    <p>Podemos também ter listas mistas, configurando listas dentro de listas</p>
+    <ol>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <ol type="a">
+            <li>Item 2.1</li>
+            <li>Item 2.2</li>
+            <li>Item 2.3</li>
+        </ol>
+        <li>Item 3</li>
+        <li>Item 4</li>
+    </ol>
+    <h2>Lista de Definições</h2>
+    <p>É um tipo de lista em HTML que funciona com uma proposta parecida com a de um dicionário, onde temos os termos e suas descrições</p>
+    <dl>
+        <dt>HTML</dt>
+        <dd>Linguagem de marcação utilizada para criar conteúdo de sites</dd>
 
-    <h2>Citação complexa</h2>
-    <p>Ultilizando a tag blockquote, podemos citar um trecho de um autor de maneira levemente deslocada a direita, tendo também a possibilidade de citar o link da obra online que é desejável pelos algoritimos</p>
-    <p>Exemplo:</p>
-    <P><blockquote cite="https://www.google.com.br/books/edition/A_metamorfose/KJ7mAwAAQBAJ?hl=pt-BR&gbpv=1&pg=PT3&printsec=frontcover">Certa manhã, ao acordar de sonhos intranquilos, Gregor Samsa encontrou-se, na sua cama, metamorfoseado num inseto monstruoso.</blockquote></P>
+        <dt>CSS</dt>
+        <dd>Linguagem de marcação utilizada para a especificação de estilos em sites</dd>
 
-    <h2>Abreviações</h2>
-    <p>Ultilizando a tag abbr podemos colocar o significado de alguma abreviação que foi feita.</p>
-    <p>Exemplo:</p>
-    <p>Estou estudando <abbr title="Hyper Text Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. Estou adorando!</p>
-    <h2>Texto Invertido</h2>
-    <p>Ultilizando a tag bdo podemos escrever um texto invertendo-o</p>
-    <p>Exemplo:</p>
-    <p><bdo dir="rtl">Eu estou aprendendo HTML.</bdo></p>
+        <dt>JavaScript</dt>
+        <dd>Linguagem de programação para criar interatividade em sites</dd>
+    </dl>
 </body>
 </html>
